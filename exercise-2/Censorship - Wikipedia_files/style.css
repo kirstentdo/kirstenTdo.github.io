@@ -1,3 +1,102 @@
 h1 {
 	color:red;
 }
+
+#mw-panel {
+	display: none;
+}
+
+#mw-head {
+	display: none;
+}
+
+#content {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+
+body *{
+	color: black;
+}
+.mw-headline {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+.mw-editsection {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+.thumbtright {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+.hatnote {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+
+.references {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+
+
+	
+
+p:first-of-type {
+	color: black;
+    background-color: black;
+    white-space:nowrap;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px dotted #555;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+
+p:last-of-type {
+	color: black;
+    background-color: black;
+    white-space:nowrap;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px dotted #555;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+
+
+
+#firstHeading {
+	border: none;
+}
+
+
+
+
+
