@@ -17,9 +17,81 @@ h1 {
 
 }
 
+.mw-body {
+	margin-left: 0em;
+	border: none;
+}
 body *{
 	color: black;
+	font-family:'CourierNew', monospace;
 }
+
+
+
+#mw-content-text > p:nth-child(4) {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+#mw-content-text > p:nth-child(5) {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+#mw-content-ltr > p:nth-child(1) {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+#mw-content-text > ul > li:nth-child(2) {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+#mw-content-text > ul > li:nth-child(5) {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+#mw-content-text > ul > li:nth-child(1) {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+.thumbcaption {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+
 .mw-headline {
 	color: black;
     background-color: black;
@@ -68,30 +140,23 @@ body *{
 }
 
 
+
+$('#mw-content-text > p:nth-child(21)').text()
+'#mw-content-text > p:nth-child(21)'
+
+.mw-body a.image {
+	color: black;
+}
+.mw-body a.image {
+	display:none;
+}
+.mw-body a.external {
+	color: black;
+}
+.external {
+	display: none;
+}
 	
-
-p:first-of-type {
-	color: black;
-    background-color: black;
-    white-space:nowrap;
-    -moz-transform: rotate(.8deg) skewx(-12deg);
-    -moz-box-shadow:3px 0 2px #444;
-    border:1px dotted #555;
-    background: -moz-linear-gradient(180deg, #000, #222);
-}
-
-p:last-of-type {
-	color: black;
-    background-color: black;
-    white-space:nowrap;
-    -moz-transform: rotate(.8deg) skewx(-12deg);
-    -moz-box-shadow:3px 0 2px #444;
-    border:1px dotted #555;
-    background: -moz-linear-gradient(180deg, #000, #222);
-}
-
-
-
 #firstHeading {
 	border: none;
 }
