@@ -212,9 +212,10 @@ body *{
     width:100%;
     vertical-align:top;
 }
-.image:after {
-    content:'\A';
-    position:absolute;
+
+.mw-body a.image:after {
+    content:'CENSORED';
+    color:#fff;
     width:100%; height:100%;
     top:0; left:0;
     background:rgba(0,0,0,0.6);
@@ -222,9 +223,10 @@ body *{
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
-.image:hover:after {
+.mw-body a.image:hover:after {
     opacity:1;
 }
+
 
 .mw-body a.external {
 	color: black;
