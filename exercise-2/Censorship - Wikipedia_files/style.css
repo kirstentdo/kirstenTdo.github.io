@@ -63,13 +63,6 @@ body *{
     border:1px;
     background: -moz-linear-gradient(180deg, #000, #222);
 }
-#toctitle > h2 {color: black;
-    background-color: black;
-    white-space;
-    -moz-transform: rotate(.8deg) skewx(-12deg);
-    -moz-box-shadow:3px 0 2px #444;
-    border:1px;
-    background: -moz-linear-gradient(180deg, #000, #222);}
 
 #mw-content-text > p:nth-child(4) {
 	color: black;
@@ -99,7 +92,7 @@ body *{
     border:1px;
     background: -moz-linear-gradient(180deg, #000, #222);
 }
-#mw-content-text > p:nth-child(21) {
+#mw-content-text > p:nth-child(7) {
 	color: black;
     background-color: black;
     white-space;
@@ -135,8 +128,24 @@ body *{
     border:1px;
     background: -moz-linear-gradient(180deg, #000, #222);
 }
-
+#mw-content-text > dl {color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);}
 #mw-content-text > ul > li:nth-child(4) {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+
+#mw-content-text > ul > li:nth-child(9) {
 	color: black;
     background-color: black;
     white-space;
@@ -192,6 +201,22 @@ body *{
     border:1px;
     background: -moz-linear-gradient(180deg, #000, #222);
 }
+.selflink {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+.templatequote {color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);}
 
 .references {
 	color: black;
@@ -203,34 +228,6 @@ body *{
     background: -moz-linear-gradient(180deg, #000, #222);
 }
 
-.thumbinner {
-    position:relative;
-}
-.thumbinner img {
-    width:100%;
-    vertical-align:top;
-}
-.thumbinner:after {
-    content:'Here is some text..';
-    color:#fff;
-    position:absolute;
-    width:100%; height:100%;
-    top:0; left:0;
-    background:rgba(0,0,0,0.6);
-    opacity:0;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-}
-.thumbinner:hover:after {
-    opacity:1;
-}
-
-.mw-body a.image {
-	color: black;
-}
-.mw-body a.image {
-	display:none;
-}
 .mw-body a.external {
 	color: black;
 }
@@ -241,6 +238,63 @@ body *{
 #firstHeading {
 	border: none;
 }
+
+#toctitle > h2 {
+	color: black;
+    background-color: white;
+    white-space;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+
+#toctitle >h2 {
+	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: white;}
+    to {background-color: black;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: white;}
+    to {background-color: black;}
+
+
+
+.mw-body a.image {
+	color: black
+	background-color: white;
+    white-space;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+.mw-body a.image {
+	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: white;}
+    to {background-color: black;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: white;}
+    to {background-color: black;}
+
+
 
 
 
