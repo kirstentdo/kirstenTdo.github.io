@@ -203,6 +203,20 @@ body *{
     background: -moz-linear-gradient(180deg, #000, #222);
 }
 
+.mw-body a.image:after {
+    content:'CENSORED';
+    color:#fff;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.mw-body a.image:hover:after {
+    opacity:1;
+}
+
 .mw-body a.external {
 	color: black;
 }
@@ -273,19 +287,6 @@ body *{
     animation-iteration-count: infinite
 }
 
-.mw-body a.image {
-    color: black
-    background-color: white;
-    white-space;
-    border:1px;
-}
-.mw-body a.image {
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite
-}
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
@@ -300,27 +301,7 @@ body *{
 
 
 
-.mw-body a.image {
-	color: black
-	background-color: white;
-    white-space;
-    border:1px;
-    background: -moz-linear-gradient(180deg, #000, #222);
-}
-.mw-body a.image{
-    background-color: #AD310B !important;
-    background-image:none !important;
-   -webkit-transition: background-color 5000ms linear;
-   -moz-transition: background-color 5000ms linear;
-   -o-transition: background-color 5000ms linear;
-   -ms-transition: background-color 5000ms linear;
-    transition: background-color 5000ms linear;
-    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
-    animation-direction: alternate;
 
-    -webkit-animation-iteration-count: 2; /* Chrome, Safari, Opera */
-    animation-iteration-count: 2;
- }
 
 
 
