@@ -172,4 +172,11 @@ $(document).ready(function() {
 	$('.blackout').mouseover(function() {
 		$(this).css('background-color', 'black');
 	});
+//////////////////////////////////////////censor hover over ///
+	$("div.thumbinner > img").hover(function() {
+    $(this).next(".information").show(); 
+	}, function() {
+    $(this).next(".information").hide(); 
+});
+
 });
