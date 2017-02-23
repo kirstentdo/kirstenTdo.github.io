@@ -66,6 +66,16 @@ $(document).ready(function() {
 			$(this).find('*').css(revertCss);			
 	});
 
+	$('#mw-content-text > p:nth-child(95)').hover(function() {
+			$(this).css(blackOutCss);
+			$(this).find('*').css(blackOutCss);	
+		}, 
+		function() {
+			$(this).css(revertCss);
+			$(this).find('*').css(revertCss);			
+	});
+
+
 //////////////////////////////////////////shuffle///
 
 	var $elementToShuffle = $('#mw-content-text > p:nth-child(21)');
@@ -82,7 +92,7 @@ $(document).ready(function() {
 	);
 
 	var $elementToShuffle = $('#mw-content-text > p:nth-child(22)');
-	var originalText = $elementToShuffle.text();
+	var originalText = $elementToShuffle.text(s);
 	$elementToShuffle.hover(
 		function() {
 			var text = originalText.trim().split(" ");
