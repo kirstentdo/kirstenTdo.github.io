@@ -1,0 +1,322 @@
+h1 {
+	color:red;
+}
+
+#mw-panel {
+	display: none;
+}
+
+#mw-head {
+	display: none;
+}
+
+#content {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+
+.mw-body {
+	margin-left: 0em;
+	border: none;
+}
+
+body *{
+	color: black;
+	font-family:'CourierNew', monospace;	
+}
+
+
+#toc {
+	width: 700px ;
+  	margin-left: auto ;
+  	margin-right: auto ;
+}
+
+#toc > ul > li:nth-child(2) {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+
+#toc > ul > li:nth-child(5) {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+
+#toc > ul > li:nth-child(3) {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+
+#mw-content-text > p:nth-child(9) {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+#mw-content-text > p:nth-child(5) {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+#mw-content-text > p:nth-child(7) {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+#mw-content-text > ul > li:nth-child(2) {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+#mw-content-text > ul > li:nth-child(5) {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+#mw-content-text > ul > li:nth-child(1) {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+
+#mw-content-text > ul > li:nth-child(4) {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+
+#mw-content-text > ul > li:nth-child(9) {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+
+.mw-content-ltr tbody tr:nth-child(1) td:nth-child(1) {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+
+.mw-editsection {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+.thumbcaption {
+    color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+.hatnote {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+.selflink {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+.templatequote {color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);}
+
+.references {
+	color: black;
+    background-color: black;
+    white-space;
+    -moz-transform: rotate(.8deg) skewx(-12deg);
+    -moz-box-shadow:3px 0 2px #444;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+
+.image {
+    position:relative;
+    width:400px;
+    height:400px;
+}
+.image img {
+    width:100%;
+    vertical-align:top;
+}
+
+.mw-body a.image:after {
+    content:'CENSORED';
+    color:#fff;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.mw-body a.image:hover:after {
+    opacity:1;
+}
+
+
+.mw-body a.external {
+	color: black;
+}
+.external {
+	display: none;
+}
+	
+#firstHeading {
+	border: none;
+}
+
+#mw-content-text > p:nth-child(4) {
+	color: black;
+    background-color: black;
+    white-space;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+
+#mw-content-text > p:nth-child(4) {
+	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite
+}
+
+.mw-headline {
+	color: black;
+    background-color: black;
+    white-space;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+.mw-headline {
+	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite
+}
+
+#mw-content-text > dl {color: black;
+    background-color: black;
+    white-space;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);}
+#mw-content-text > dl{
+	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite
+}
+#toctitle > h2 {
+	color: black;
+    background-color: white;
+    white-space;
+    border:1px;
+    background: -moz-linear-gradient(180deg, #000, #222);
+}
+
+#toctitle >h2 {
+	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: white;}
+    to {background-color: black;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: white;}
+    to {background-color: black;}
+
+
+
+
+
+
+
+
+
+
+
