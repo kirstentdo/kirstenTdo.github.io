@@ -32,6 +32,10 @@ body *{
     font-family:'CourierNew', monospace;
 }
 
+#siteSub {
+    text-align: center;
+}
+
 #toc {
 	width: 700px ;
   	margin-left: auto ;
@@ -208,15 +212,34 @@ body *{
 }
 
 
+a.image {
+    display: inline-block;
+    background: black;
+    padding: 0;
+}
 
+a.image img {
+    display: block;
 
-.image {
- background-image: url('250px-CENSORED_The_Birth_of_Venus_by_William-Adolphe_Bouguereau_(1879).jpg');
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+}
+
+a.image:hover img {
+    opacity: 0.00;
+
+}
+
+#yourImage {
+ background-image: url('image1.jpg');
 }
 
 
-.image:hover {
- background-image: url('censored.png'), url('250px-CENSORED_The_Birth_of_Venus_by_William-Adolphe_Bouguereau_(1879).jpg');
+#yourImage:hover {
+ background-image: url('overimage.jpg'), url('image1.jpg');
 }
 
 .mw-body a.external {

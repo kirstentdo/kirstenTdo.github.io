@@ -39,6 +39,33 @@ $(document).ready(function() {
 			$(this).find('*').css(revertCss);			
 	});
 
+	$('#mw-content-text > p:nth-child(100)').hover(function() {
+			$(this).css(blackOutCss);
+			$(this).find('*').css(blackOutCss);	
+		}, 
+		function() {
+			$(this).css(revertCss);
+			$(this).find('*').css(revertCss);			
+	});
+
+	$('#mw-content-text > p:nth-child(104)').hover(function() {
+			$(this).css(blackOutCss);
+			$(this).find('*').css(blackOutCss);	
+		}, 
+		function() {
+			$(this).css(revertCss);
+			$(this).find('*').css(revertCss);			
+	});
+
+	$('#mw-content-text > p:nth-child(117)').hover(function() {
+			$(this).css(blackOutCss);
+			$(this).find('*').css(blackOutCss);	
+		}, 
+		function() {
+			$(this).css(revertCss);
+			$(this).find('*').css(revertCss);			
+	});
+
 //////////////////////////////////////////shuffle///
 
 	var $elementToShuffle = $('#mw-content-text > p:nth-child(21)');
@@ -93,6 +120,57 @@ $(document).ready(function() {
 		}
 	);
 
+	var $elementToShuffle = $('#mw-content-text > p:nth-child(77)');
+	var originalText = $elementToShuffle.text();
+	$elementToShuffle.hover(
+		function() {
+			var text = originalText.trim().split(" ");
+			shuffle(text)
+			$(this).empty().append(text.join(" "));
+		},
+		function() {
+			$(this).empty().append(originalText);
+		}
+	);
+
+	var $elementToShuffle = $('#mw-content-text > p:nth-child(108)');
+	var originalText = $elementToShuffle.text();
+	$elementToShuffle.hover(
+		function() {
+			var text = originalText.trim().split(" ");
+			shuffle(text)
+			$(this).empty().append(text.join(" "));
+		},
+		function() {
+			$(this).empty().append(originalText);
+		}
+	);
+
+	var $elementToShuffle = $('#mw-content-text > p:nth-child(121)');
+	var originalText = $elementToShuffle.text();
+	$elementToShuffle.hover(
+		function() {
+			var text = originalText.trim().split(" ");
+			shuffle(text)
+			$(this).empty().append(text.join(" "));
+		},
+		function() {
+			$(this).empty().append(originalText);
+		}
+	);
+
+	var $elementToShuffle = $('#mw-content-text > p:nth-child(49)');
+	var originalText = $elementToShuffle.text();
+	$elementToShuffle.hover(
+		function() {
+			var text = originalText.trim().split(" ");
+			shuffle(text)
+			$(this).empty().append(text.join(" "));
+		},
+		function() {
+			$(this).empty().append(originalText);
+		}
+	);
 
 //////////////////////////////////////////blackout word anim///
 
@@ -138,6 +216,34 @@ $(document).ready(function() {
     	}, 2000 );
 	});
 
+	var $elementToHighlight = $('#mw-content-text > p:nth-child(85)');
+	var originalText = $elementToHighlight.text();
+	$elementToHighlight.empty();
+	originalText.trim().split(" ").forEach(function(word) {
+		$elementToHighlight.append("<span class='blackout'>" + word + " </span>");
+	})
+
+	$('.blackout').mouseover(function() {
+		$(this).css('background-color', 'black');
+		$(this).animate({
+            backgroundColor: "white"
+    	}, 3000 );
+	});
+
+	var $elementToHighlight = $('#mw-content-text > p:nth-child(73)');
+	var originalText = $elementToHighlight.text();
+	$elementToHighlight.empty();
+	originalText.trim().split(" ").forEach(function(word) {
+		$elementToHighlight.append("<span class='blackout'>" + word + " </span>");
+	})
+
+	$('.blackout').mouseover(function() {
+		$(this).css('background-color', 'black');
+		$(this).animate({
+            backgroundColor: "white"
+    	}, 4000 );
+	});
+
 //////////////////////////////////////////blackout word perm///
 
 	var $elementToHighlight = $('#mw-content-text > p:nth-child(59)');
@@ -172,11 +278,26 @@ $(document).ready(function() {
 	$('.blackout').mouseover(function() {
 		$(this).css('background-color', 'black');
 	});
-//////////////////////////////////////////censor hover over ///
-	$("div.thumbinner > img").hover(function() {
-    $(this).next(".information").show(); 
-	}, function() {
-    $(this).next(".information").hide(); 
-});
 
+	var $elementToHighlight = $('#mw-content-text > p:nth-child(94)');
+	var originalText = $elementToHighlight.text();
+	$elementToHighlight.empty();
+	originalText.trim().split(" ").forEach(function(word) {
+		$elementToHighlight.append("<span class='blackout'>" + word + " </span>");
+	})
+
+	$('.blackout').mouseover(function() {
+		$(this).css('background-color', 'black');
+	});
+
+	var $elementToHighlight = $('#mw-content-text > p:nth-child(115)');
+	var originalText = $elementToHighlight.text();
+	$elementToHighlight.empty();
+	originalText.trim().split(" ").forEach(function(word) {
+		$elementToHighlight.append("<span class='blackout'>" + word + " </span>");
+	})
+
+	$('.blackout').mouseover(function() {
+		$(this).css('background-color', 'black');
+	});
 });
