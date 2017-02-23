@@ -27,6 +27,10 @@ body *{
 	font-family:'CourierNew', monospace;	
 }
 
+.firstHeading {
+    text-align: center;
+    font-family:'CourierNew', monospace;
+}
 
 #toc {
 	width: 700px ;
@@ -203,7 +207,7 @@ body *{
     background: -moz-linear-gradient(180deg, #000, #222);
 }
 
-#mw-content-text > div:nth-child(45) > div > a > img {
+#mw-content-text > div:nth-child(2) > div > a > img {
     position:relative;
     width:400px;
     height:400px;
@@ -211,7 +215,7 @@ body *{
     vertical-align:top;
 }
 
-#mw-content-text > div:nth-child(45) > div > a > img:after {
+#mw-content-text > div:nth-child(2) > div > a > img:after {
     content:'HELLO';
     color:#fff;
     width:100%; height:100%;
@@ -221,7 +225,7 @@ body *{
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
-#mw-content-text > div:nth-child(45) > div > a > img:hover:after {
+#mw-content-text > div:nth-child(2) > div > a > img:hover:after {
     opacity:1;
 }
 
