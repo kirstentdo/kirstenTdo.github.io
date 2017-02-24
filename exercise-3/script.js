@@ -92,7 +92,7 @@ $(document).ready(function() {
 	);
 
 	var $elementToShuffle = $('#mw-content-text > p:nth-child(22)');
-	var originalText = $elementToShuffle.text(s);
+	var originalText = $elementToShuffle.text();
 	$elementToShuffle.hover(
 		function() {
 			var text = originalText.trim().split(" ");
