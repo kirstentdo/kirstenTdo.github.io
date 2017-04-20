@@ -1,0 +1,773 @@
+body { color: #4A4A4A;
+    background-color: #FFFCCF;
+    font-family: 'Avenir-Light', sans-serif;
+    background-repeat: no-repeat;
+}
+
+
+/*GENERAL*/
+
+.backgroundimg {
+    background-repeat: no-repeat;
+    margin-left: 300px;
+}
+.element {
+    width: 375px;
+    height: 665px;
+    overflow: auto;
+    overflow-x: auto;
+    overflow-y: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.element2 {
+    background-color: #F7F7F7;
+    border: 1px #4A4A4A;
+    width:375px;
+    height:667px;
+    overflow: scroll;
+}
+
+.element3 {
+    background-image: url("index-bg.jpg");
+    border: 1px #4A4A4A;
+    width:375px;
+    height:667px;
+    overflow:scroll;
+}
+hr.style1 { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    margin: 2px;
+}
+hr.style2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    margin: 2px;
+}
+hr.style3 {
+    max-width: 375px;
+    position: relative;
+    height: 1px;
+    border: 0;
+    border-top: 6px solid #ff002b;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px -10px #8c8c8c inset; 
+    margin-top: 10px;   
+}
+hr.style4 {
+    display: block;
+    border-top: 1px solid #B6B6B6;  
+    margin: 1em 0;
+    padding: 0;
+}
+
+h5 { 
+    font-size: 13px;
+    font-family: Avenir-Light;
+    color: #747474;
+    letter-spacing: 0;
+    }
+
+.navigation {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: red;
+    background-image: url("city-index2.jpg");
+    border-bottom: 0.5px solid #EC9892;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    box-shadow: 0 2px 5px 0 rgba(231,46,35,0.68);
+
+}
+.navigation1 {
+    text-align: left;
+    color: #4A4A4A;
+    margin-top: 10px;
+    padding: 5px;
+    float: left;
+    font-size: 16px;
+}
+.navigation2 {
+    text-align: right;
+    font-size: 16px;
+    color: #4A4A4A;
+    padding: 5px;
+    width:10px;
+    height: 10px;
+
+
+
+}
+
+.navigation3 {
+    text-align: left;
+    color: white;
+    padding: 5px;
+    float: left;
+}
+
+#homeicon {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+/*LOGIN SCREEN*/
+
+#logo {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+    margin-bottom: 75px;
+    max-width: 260px;
+}
+
+ form {
+    display: inline-block;
+    text-align: center;
+    }
+
+input[type=text] {
+    width: 75%;
+    margin-left: 65px;
+    margin-right: auto;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    border: 2px solid #E72F23;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #4A4A4A;
+    background-image: url('loginicon.png');
+    background-position: 15px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=password] {
+    width: 75%;
+    margin-left: 65px;
+    margin-right: auto;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    border: 2px solid #E72F23;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #4A4A4A;
+    background-image: url('loginicon2.png');
+    background-position: 15px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type="submit"] {
+    background-color: #E72F23;
+    font-size: 16px;
+    width: 75%;
+    margin-left: 65px;
+    margin-right: auto;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    padding: 12px 20px 12px 40px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder { 
+}
+
+::-moz-placeholder {
+  opacity: 1;
+}
+    
+
+/*HOMEPAGE*/
+
+a {
+  color: #4A4A4A;
+  text-decoration: none; /* no underline */
+}
+
+.practice {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.practice1 {
+    float:left;
+    display: block;
+    color: white;
+    padding: 20px 14px 16px;
+}
+
+.practice2 {
+    float:right;
+    display:block;
+    padding: 2px 14px 16px;
+}
+
+
+.header {
+   color: #747474;
+   width: 375px;
+   margin-left: 0;
+   margin-right: 0;
+   text-align: center;
+   font-size: 20px;
+}
+
+.header2 {
+   color: #747474;
+   width: 300px;
+   margin-left: 0;
+   margin-right: 0;
+   text-align: center;
+   font-size: 20px;
+}
+#date {
+    color: #9B9B9B;
+    text-align: center;
+}
+
+.menudiv {
+    width: 300px;
+    background-color: green;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0.5px solid #EC9892;
+    border-top: 4px solid #E72F23;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(231,46,35,0.68);
+}
+
+.ul-content { 
+    list-style-type: none;
+    color: #6D6D6D;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+    font-size: 16px;
+    padding-bottom: 10px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+.menubar {
+    padding-left: 20px;
+}
+
+
+.dailysched {
+    border: 0.5px solid #EC9892;
+    width: 300px;
+    border-radius: 5px;
+    border-top: 4px solid #E72F23;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(231,46,35,0.68);
+    font-family: 'Avenir-Light', sans-serif;
+}
+
+
+.schedtest {
+    text-align: center;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Avenir-Light', sans-serif; 
+    color: #ACACAC;
+
+}
+
+.header3 {
+    font-family: 'Avenir-Light', sans-serif;
+    font-size: 20px;
+    color: #6D6D6D;
+}
+
+
+
+/* CLASS SCHEDULE */
+
+.dropbtn {
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #f1f1f1};
+}
+
+.dropdown {
+    width:300px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+.dropdownmenu { 
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+ul#scheduleday {
+max-width: 375px;
+padding: 0;
+}
+
+
+ul#scheduleday li {
+   border:1px solid white;
+   background-color: red;
+   color:white;
+   float:left;
+   text-align:center;
+   overflow:scroll;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   padding-left: 2px;
+   padding-right: 2px;
+   width:69px;
+
+}
+li.first{
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+}
+li.last{
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+}
+
+
+article > section {
+    font-size: 8px;
+    display: inline-block;
+    position: relative;
+    width: 68px;
+    margin-left: 3px;
+    border: 1px outset black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 2px;
+    padding-right: 2px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+#advertise {
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    height:50px;
+}
+
+#blank {
+    border: 1px white;
+    color:white;
+
+}
+
+#type {
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
+    height:50px;
+}
+
+#ars { 
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
+    height:150px;
+}
+
+#digital {
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
+    height:50px;
+}
+
+#webdev {
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
+    height:50px;
+}
+
+.courseinformation {
+    max-width: 300px;
+    text-align: center;
+}
+.coursetitle {
+    border: 1px solid #979797;
+    border-radius: 70px;
+    text-align: center;
+    float:left;
+    margin-left: 5px;
+    padding: 5px;   
+}
+
+#coursenumber {
+    padding-top: 5px;
+}
+
+.info-left {
+  float: left;
+  display: block;
+  white-space: nowrap;
+  text-align: center;
+  padding:0;
+  margin:0;
+}
+.info-right {
+  float: left;
+  margin-left: 60px;
+  display: inline-block;
+  text-align: left;
+}
+
+/*ACADEMIC CALENDAR*/
+
+
+
+ul#scheduleday2 {
+max-width: 375px;
+padding: 0;
+}
+
+
+ul#scheduleday2 li {
+   border:1px solid white;
+   background-color: red;
+   color:white;
+   float:left;
+   text-align:center;
+   overflow:scroll;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   padding-left: 2px;
+   padding-right: 2px;
+   width:175px;
+   margin-left: 3px;
+   margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0.5px solid #EC9892;
+    border-top: 4px solid #E72F23;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(231,46,35,0.68);
+}
+
+td {
+    text-align: left;
+    padding: 15px;
+    font-size: 14px;
+    color: #747474;
+}
+
+th {
+    text-align: left;
+    padding: 15px;
+    font-size: 20px;
+    color: #747474;
+}
+
+
+/* ID CARD VIEW */
+
+#id-picture {
+    margin-left: 35px;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: auto;
+
+}
+
+
+#id-button {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button1 {
+    background-color: white;
+    border: 1px solid #E72F23;
+    border-radius: 11px;
+    color: #E72F23;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top:10px;
+    cursor: pointer;
+}
+
+#schoolid {
+    background-image: url("school-id.jpg");
+    width: 300px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0.5px solid #EC9892;
+    border-top: 4px solid #E72F23;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(231,46,35,0.68);
+
+}
+
+/* NEW SCHEDULE */
+
+
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    width: 313px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 16px;
+    color: #A1A1A1;
+    font-family: 'Avenir-Light', sans-serif;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+}
+
+section {
+    width: 100%;
+}
+section article {
+    width: 300px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.hi1-5-container,
+.hi2-5-container,
+.hi3-5-container,
+.hi4-5-container,
+.hi5-5-container {
+    float: left;
+}
+.hi1-5-container {
+    width: 18%;
+    border: 1px solid #BCBCBC;
+    border-radius: 2px;
+    margin: 2px;
+    text-align: center;
+}
+
+.hi1-5-container p strong,
+.hi2-5-container p strong,
+.hi3-5-container p strong,
+.hi4-5-container p strong.
+.hi5-5-container p strong {
+    color: #4c4c4c !important;
+}
+.hi1-5-container p,
+.hi2-5-container p,
+.hi3-5-container p,
+.hi4-5-container p,
+.hi5-5-container p {
+    color: #939393;
+}
+
+/* SCHEDULE PART 3 */
+
+.classinfo1 {
+    width: 300px;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    border: 0.5px solid #EC9892;
+    border-top: 4px solid #E72F23;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(231,46,35,0.68);
+}
+
+
+
+.classinfo2 {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+    color: #747474;
+}
+
+#classinfo3 {
+    font-size: 14px;
+    text-align: left;
+    padding-top: 3px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: #747474;
+}
+
+
+
+/* BUILDINGS */
+
+.citymap {
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 0.5px solid #EC9892;
+    background: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(231,46,35,0.68);
+	}
+
+.buildinginfo {
+    border: 0.5px solid #EC9892;
+    width: 300px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border-top: 4px solid #E72F23;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(231,46,35,0.68);
+    font-family: 'Avenir-Light', sans-serif;
+}
+
+
+.buildinginfo2 {
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Avenir-Light', sans-serif; 
+    color: #ACACAC;
+
+}
+
+.header4 {
+    font-family: 'Avenir-Light', sans-serif;
+    font-size: 15px;
+    color: #6D6D6D;
+
+}
+
+
+/* FACILITIES */
+
+.facilities {
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.inline {
+    display:inline-block;
+    width: 120px;
+    margin-top:10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: #CFCFCF;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
