@@ -1,0 +1,22 @@
+#one {
+	position: absolute;
+}
+
+#two {
+	position: absolute;
+}
+
+
+.square {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #959595;
+}
+
+.colored {
+	background: #ff8e6a;
+}
+
+
